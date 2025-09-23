@@ -1,40 +1,41 @@
 [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# EDA project for neuefische data science bootcamp
 
-Template for creating ds simple projects
+This repository contains files for the EDA project of the neuefische "Data Science" bootcamp performed by __Maryam J. Rutner__ and __Tim Dannenfeld__. The data used for this project can be found in [eda.csv](./data/eda.csv) and was retrieved from PostgreSQL as described in [Fetching_the_data_eda.ipynb](./Fetching_the_data_eda.ipynb). The data contains information about house sales and details in King County, WA, USA from May 2014 to May 2015.
+
+# Files
+
+- data cleaning process: [data_cleaning.ipynb](./tim_folder/data_cleaning.ipynb)
+- resulting csv-file: [eda_clean.csv](./tim_folder/eda_clean.csv)
+- hypotheses for project including python code used for testing: [hypotheses_tests.ipynb](./tim_folder/hypotheses_tests.ipynb)
+- creation of plots: [visualization.ipynb](./tim_folder/visualization.ipynb)
+- power point presentation of results: [Presentation_Properties_Erin_Robinson.pdf](./mjr_folder/presentation/Presentation_Properties_Erin_Robinson.pdf).
+
+# The task
+
+- define three hypotheses that can be tested with the data
+- test hypotheses using python
+- develop useful recommendations for an imaginary client based on tested hypotheses
+- present results with a power point presentation to coaches and other students
+
+#
+__Imaginary Client: Erin Robinson__
+
+__Role__: Buyer
+
+__Characteristics:__
+- Investor in poor neighborhoods
+- Goal: buy, resell, cover costs + small profit
+- Wants to be socially responsible
 
 ## Requirements
 
 - pyenv
 - python==3.11.3
-
-## Setup
-
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
-
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
-
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
-
-```bash
-pip freeze > requirements.txt
-```
-
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
-
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
+- pandas==2.3.2
+- folium==0.20.0
+- matplotlib==3.10.6
+- seaborn==0.13.2
 
 ## Set up your Environment
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
