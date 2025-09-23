@@ -9,7 +9,7 @@ This repository contains files for the EDA project of the neuefische "Data Scien
 - resulting csv-file: [eda_clean.csv](./tim_folder/eda_clean.csv)
 - hypotheses for project including python code used for testing: [hypotheses_tests.ipynb](./tim_folder/hypotheses_tests.ipynb)
 - creation of plots: [visualization.ipynb](./tim_folder/visualization.ipynb)
-- power point presentation of results: [Presentation_Properties_Erin_Robinson.pdf](./mjr_folder/presentation/Presentation_Properties_Erin_Robinson.pptx).
+- power point presentation of results: [Presentation_Properties_Erin_Robinson.pdf](./mjr_folder/presentation/Presentation_Properties_Erin_Robinson.pdf).
 
 # The task
 
