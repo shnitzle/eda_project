@@ -9,16 +9,17 @@ This repository contains files for the EDA project of the neuefische "Data Scien
 - resulting csv-file: [eda_clean.csv](./tim_folder/eda_clean.csv)
 - hypotheses for project including python code used for testing: [hypotheses_tests.ipynb](./tim_folder/hypotheses_tests.ipynb)
 - creation of plots: [visualization.ipynb](./tim_folder/visualization.ipynb)
-- power point presentation of results: [Presentation_Properties_Erin_Robinson.pdf](./mjr_folder/presentation/Presentation_Properties_Erin_Robinson.pdf).
+- power point presentation of results: [Presentation_Properties_Erin_Robinson.pdf](./Presentation_Properties_Erin_Robinson.pdf).
 
 # The task
 
 - define three hypotheses that can be tested with the data
-- test hypotheses using python
+- test hypotheses using python libraries
 - develop useful recommendations for an imaginary client based on tested hypotheses
 - present results with a power point presentation to coaches and other students
 
 #
+
 __Imaginary Client: Erin Robinson__
 
 __Role__: Buyer
@@ -28,7 +29,7 @@ __Characteristics:__
 - Goal: buy, resell, cover costs + small profit
 - Wants to be socially responsible
 
-## Requirements
+# Requirements
 
 - pyenv
 - python==3.11.3
@@ -37,7 +38,7 @@ __Characteristics:__
 - matplotlib==3.10.6
 - seaborn==0.13.2
 
-## Set up your Environment
+# Set up your Environment
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
 
 Before you can start with plotly in Jupyter Lab you have to install node.js (if you haven't done it before).
@@ -66,6 +67,8 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
     pip install --upgrade pip
     pip install -r requirements.txt
     ```
+
+
 ### **`WindowsOS`** type the following commands :
 
 
