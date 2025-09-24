@@ -1,7 +1,7 @@
 [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
 # EDA project for neuefische data science bootcamp
 
-This repository contains files for the EDA project of the neuefische "Data Science" bootcamp performed by __Maryam J. Rutner__ and __Tim Dannenfeld__. The data used for this project can be found in [eda.csv](./data/eda.csv) and was retrieved from PostgreSQL as described in [Fetching_the_data_eda.ipynb](./Fetching_the_data_eda.ipynb). The data contains information about house sales and details in King County, WA, USA from May 2014 to May 2015.
+This repository contains files for the EDA project of the neuefische "Data Science" bootcamp performed by __Maryam J. Rutner__ and __Tim Dannenfeld__. The data was retrieved from PostgreSQL as described in [Fetching_the_data_eda.ipynb](./Fetching_the_data_eda.ipynb). The data contains information about house sales and details in King County, WA, USA from May 2014 to May 2015.
 
 # Files
 
